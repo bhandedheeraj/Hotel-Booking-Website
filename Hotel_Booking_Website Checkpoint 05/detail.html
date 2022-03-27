@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: #e0e0e0
+        }
+
+        header {
+            background-color: rosybrown;
+        }
+
+        footer {
+            background-color: rosybrown;
+        }
+
+        .detail_img {
+            margin-top: 2%;
+            padding-right: 4%;
+        }
+
+        .form {
+            margin-bottom: 1%;
+            margin-left: 4%;
+        }
+
+        .info_class {
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+
+<body style="width: 100%;">
+    <!--Header of the WebPage-->
+    <div>
+        <header>
+            <a href="index.html">
+                <img src="./assests/images/logo.png" alt="logo" height="60px" width="60px">
+            </a>
+            <a href="login.html">Login</a>
+        </header>
+    </div>
+
+    <!--Content of the WebPage-->
+    <div>
+        <img class="detail_img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            alt="" height="500px" width="500px"><br>
+
+        <form class="form" action="payment.html" method="get">
+            <label>Adults:</label><input type="number" name="adults" min="1" required><br>
+            <label>Name:</label><input type="text" name="name" required><br>
+            <label>From Date:</label><input type="date" name="from date" required><br>
+            <label>To Date:</label><input type="date" name="to date" required><br>
+            <label>Total:</label><input type="text" name="price" disabled><br>
+            <button type="submit">Book Now</button><br>
+        </form>
+
+        <div class="info_class">
+            <h2>Radisson Blu Hotel</h2>
+            <span>RATING</span><br><br>
+            <span>5 Star</span><br><br>
+            <span>AMENITIES</span>
+            <ul>
+                <li>Room Service</li>
+                <li>Restaurant</li>
+                <li>Business Center</li>
+                <li>Fitness Center</li>
+                <li> Pool</li>
+            </ul>
+            <h5>DESCRIPTION</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad modi illum dolores. Quas, deleniti
+                accusamus libero vel ab veritatis vero eos quisquam quod enim ex, officiis nisi, eveniet cum.</p>
+        </div>
+    </div>
+
+    <!--Footer of the WebPage-->
+    <div>
+        <footer>
+            <a href="contact.html">Contact Us</a><br>
+            <a href="https://www.facebook.com" target="_blank"><img src="./assests/images/facebook.png" alt=""
+                    height="20px" width="22px"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./assests/images/instagram.png" alt=""
+                    height="20px" width="22px"></a>
+            <a href="https://twitter.com" target="_blank"><img src="./assests/images/twitter.png" alt="" height="20px"
+                    width="22px" height="20px" width="22px"></a><br>
+            <span>&#169; 2020 ROOM SEARCH PVT. LTD</span><br><br>
+        </footer>
+    </div>
+</body>
+
+</html>
